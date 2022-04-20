@@ -1,0 +1,134 @@
+
+
+
+html{
+    /* 1 rem = 16px */
+    font-size: 62.5%; 
+    font-family: 'courier new', Times, serif;
+    /* font-family: 'Helvetica', Times, serif; */
+    /* font-family: 'Open Sans', sans-serif; */
+    box-sizing: content-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+:root{
+    --btn-color: rgb(255, 51, 0);
+    --primary-color: #d31c627a;
+    --white-color: #fff;
+    --violet: #c30d59;
+    --yellow: #fa9e1b;
+    --btn:#bb0b14;
+    --text-black: #666;
+    --height-bgr: 60vh;
+    --primary-bg: #6a39af;
+    --primary-page : rgb(248, 234, 234) ;
+    --sidebar-popup-bg: #572f90;
+    --layout-bg: #ff8a9085;
+    --bg-btn: linear-gradient(to right, #fa9e1b, #8d4fff, #fa9e1b);
+    --bg-section: linear-gradient(to right, #fa9e1b, #8d4fff);
+    --bg-btne: linear-gradient(to right,#8d4fff, #fa9e1b, #8d4fff);
+}
+
+/*  
+
+    font: 400 50px/0.8 'Great Vibes', Helvetica, sans-serif; 
+    text-shadow: 4px 4px 3px rgba(0,0,0,0.1);               
+
+    font: 400 100px/1.3 'Berkshire Swash', Helvetica, sans-serif;
+    text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0.15);
+
+    <button class="btn">
+        <a class="btn__link" href="#/"> Read More</a>
+    </button>
+
+    
+*/
+.btn{
+    border: none;
+    outline: none;
+    border-radius: 12px 0 12px 0;
+    overflow: hidden;
+    text-align: center;
+    margin-right: 28px;
+}
+.btn_primary-link{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-family: 'courier new', Times, serif;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #337ab7;;
+    display: block;
+    font-weight: 500;
+    min-width: 140px;
+}
+.btn_primary-link:hover{
+    background-color: violet;
+    color: #fff;
+}
+body{
+    background-color: #e2e2e2;
+}
+
+.hover_color:hover{
+    color: violet;
+    background-color: rgba(238, 130, 238, 0.088);
+}
+
+.modol{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.635);
+    z-index: 888;
+    display: none;
+    transition: all 0.5s ease;
+    transition: opacity 0.2s;
+}
+.modolhome{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 889;
+    display: none;
+    transition: all 0.5s ease;
+    transition: opacity 0.2s;
+}
+.Show_full{
+    z-index: 889;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+}
+.contain{
+    width: 78%;
+    max-height: 95%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content:space-between
+}
+.img_full{
+    width: 90%;
+}
+.img_full-solidier{
+    height: 90vh;
+}
+
+.icon_mb{
+    display: none;
+}

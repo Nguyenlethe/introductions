@@ -1,0 +1,449 @@
+
+
+
+/*   TAP LET   */
+@media (min-width:46.25em) and (max-width:63.9375em) {
+
+    :root{
+        --height-bgr: 26vh;
+    }
+
+    /* đầu trang */
+    .my_navbar{
+        display: flex;
+        background-color: transparent;
+        box-shadow: none;
+        transform: translateY(-27%);
+        justify-content: center;
+    }
+    .bgr_taplet{
+        background-color: rgb(255, 248, 248);
+        box-shadow: 1px 1px 1px rgb(209, 170, 170,.5);
+        margin-top: -50px;
+    }
+    .list_icon{
+        display: none;
+    }
+    .My_introduce{
+        text-align: center;
+    }
+    .My_fullname{
+        margin-top: 20px;
+    }
+    .My_introduce.horizontal{
+        display: none;
+    }
+    .nav_bar {
+        display: flex;
+        align-items: center;
+        margin-top: -98px;
+    }
+    .song {
+        margin-right: 4px;
+    }
+    .hug.soldier {
+        width: 49%;
+        height: 349px;
+    }
+    .img_full-solidier {
+        width: 85%;
+        margin: auto;
+        height: auto;
+    }
+    .img_full {
+        width: 90%;
+        margin: auto;
+    }
+    .icon_next.solidier-next{
+        position:fixed;
+        bottom: 0;
+        right: 0;
+        padding: 12px 30px;
+        background-color:#333;
+        color : #fff;
+    }
+    .icon_next.solidier-out{
+        position:fixed;
+        bottom: 0;
+        left: 0;
+        padding: 12px 30px;
+        background-color:#333;
+        color : #fff;
+    }
+    .icon_next.out{
+        position:fixed;
+        bottom: 0;
+        right: 0;
+        padding: 12px 30px;
+        background-color:#333;
+        color : #fff;
+    }
+    .icon_next.next{
+        position:fixed;
+        bottom: 0;
+        left: 0;
+        padding: 12px 30px;
+        background-color:#333;
+        color : #fff;
+    }
+    .img_full-solidier {
+        width: 100%;
+    }
+    .img_full {
+        width: 100%;
+    }
+
+    .close-img {
+        position: fixed;
+        z-index: 999;
+        right: 0;
+        color: #fff;
+        margin: auto;
+    }
+}
+
+
+
+
+/* Mobile and Tablet */
+@media (max-width:63.9375em) {
+    .circle{
+        display: none;
+    }
+    .content_heading {      
+        padding: 0px 0 30px 0; 
+        margin-top: -18px;
+    }
+    .navmusic_show-img {
+       display: none;   
+    }
+    .conten_show.active {
+       width: 100%;
+    }
+    .fix_width {
+        width: 45px;
+    }
+    .loudspeaker-icon-fixel {
+        display:none;
+    }
+    .loudspeaker-icon-mic {
+        display:none;
+    }
+    .time_audio {
+        margin: 0 12px;
+    }
+    .progress{
+        width: 360px;
+    }
+    .info_my{
+        display: none;
+    }
+    .declaration_content {
+        font-size: 1.5rem;
+    }
+   
+
+
+    .respon{
+        display: none;
+    }
+    .respon_tapMobile{
+        display: block;
+    }
+    .cd_thumd_tapMobile{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content:center;
+    }
+    .cd_thumd-heading_tapMobile{
+        font-size: 1.5rem;
+        color:#fff;
+        width: 50%;
+        margin: auto;
+    }
+    .cd_thumd-sub_tapMobile{
+        margin-top: 12px;
+        margin-bottom: 20px;
+        font-size: 1.2rem;
+        color:rgb(176, 167, 167);
+    }
+    .music_show_tapMobile{
+        width: 280px;
+        height: 280px;
+        overflow: hidden;
+        margin: 0 12px;
+        border-radius:50%;
+        box-shadow: 0 8px 60px 0 rgba(126, 139, 255, 0.18), 0 12px 90px 0 rgba(103, 151, 255, .11);
+    }
+    .music_show-img_tapMobile{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+
+    
+    .list_music-name {
+        padding-bottom: 10px;
+    }
+    .loudspeaker{
+        display: none;
+    }
+    .hug.horizontal {
+        height: 210px;
+    }
+    
+    .footer_heading.img {
+        font-size: 1.6rem;
+        margin: 30px 0 10px 0;
+    }
+    .close-img {
+        position: absolute;
+        z-index: 999;
+        top: -20px;
+        right: 20px;
+    }
+    .img_full-solidier {
+        width: 90%;
+        height: auto;
+    }
+   
+    .img_full {
+        width: 90%;
+    }
+    .contain {
+        width: 100%;
+        height: 100%;
+    }
+    .pc_top{
+        margin-top: 0;
+    }
+}
+
+
+
+
+/* Ipat pro */
+@media (min-width:1024px) and (max-width:1366px){
+    .contain {
+        width: 100%;
+    }
+    .img_full {
+        width: 86%;
+        margin: auto;
+    }
+    .icon_next {
+        color: rgb(255 255 255);
+    }
+    .close-img {
+        font-size: 6rem;
+        color: rgb(255, 255, 255);
+    }
+    .img_full-solidier {
+        width: 86%;
+    }
+    .img_full-solidier {
+        height: auto;
+    }
+    
+}
+
+
+
+
+
+
+/*  Only Mobile    ip 6,7,8 */
+@media (max-width:46.25em) {
+    :root{
+        --height-bgr: 0vh;
+    }
+    .my_navbar{
+        display: flex;
+        background-color: transparent;
+        box-shadow: none;
+        transform: translateY(12px);
+        justify-content: center;
+        padding: 0;
+    }
+    .nav_bar {
+        position: fixed;
+        top: 0;
+        transform: translateX(-107%);
+        bottom: 0;
+        width: 80%;
+        z-index: 9999;
+        height: 102vh;
+        padding: 0;
+        margin: 0px;
+        display: block;
+        transition: transform .3s linear;
+        z-index: 8899;
+    }
+    .list_home {
+        display: block;
+    }
+    .My_introduce{
+        text-align: center;
+        padding: 0 12px;
+        margin-top: 23px;
+    }
+    .heading_my-music {
+        font-size: 2rem;
+    }
+    .list_music-name {
+        font-size: 1.4rem;
+    }
+    .song .title {
+        font-size: 1.4rem;
+    }
+    .progress {
+        width: 225px;
+    }
+    .loudspeaker {
+        display: none;
+    }
+    .control .btn-toggle-play {
+        width: 36px;
+        height: 36px;
+    }
+    .song {
+        margin-right: 0;
+    }
+  
+    .My_introduce.horizontal{
+        display: none;
+    }
+    .progress{
+        width: 60%;
+    }
+    .control {
+        width: 100%;
+    }
+    .footer_sub {
+        text-align: center;
+    }
+    .hug.horizontal {
+        width: 100%;
+        height: 260px;
+    }
+    .hug.soldier {
+        width: 49%;
+        height: 190px;
+    }
+    .close-img {
+        position: absolute;
+        z-index: 999;
+        top: -20px;
+        right: 0px;
+    }
+    .icon_mb{
+        position: fixed;
+        top: 0;
+        left: -7px;
+        transform: translateX(0);
+        transition: transform .3s linear;
+        display: block;
+        font-size: 2.8rem;
+        margin-left: 12px;
+        color: #337ab7;
+        z-index: 999;
+        background-color: rgb(241 190 190);
+        padding: 15px;
+        border-radius: 0 20px 20px 0
+    }
+    .content_heading {
+        margin-top: 10px;
+    }
+    .list_home {
+        margin-top: 50px;
+    }
+    .home_content {
+        padding: 15px 0;
+        width: 100%;
+        border-radius: 0px;
+    }
+    .icon_close-navMb{
+        display: block;
+        position: absolute;
+        font-size: 2.8rem;
+        color: rgb(97, 93, 93);
+        top: 0;
+        right: 0;
+        padding: 6px 6px 0 0;
+        
+    }
+    .icon_next {
+        font-size: 2.8rem;
+        padding: 0;
+    }
+    .icon_next.solidier-next{
+        position:fixed;
+        bottom: 0;
+        right: 0;
+        padding: 12px 30px;
+        background-color:#333;
+        color : #fff;
+    }
+    .icon_next.solidier-out{
+        position:fixed;
+        bottom: 0;
+        left: 0;
+        padding: 12px 30px;
+        background-color:#333;
+        color : #fff;
+    }
+    .icon_next.out{
+        position:fixed;
+        bottom: 0;
+        right: 0;
+        padding: 12px 30px;
+        background-color:#333;
+        color : #fff;
+    }
+    .icon_next.next{
+        position:fixed;
+        bottom: 0;
+        left: 0;
+        padding: 12px 30px;
+        background-color:#333;
+        color : #fff;
+    }
+    .img_full-solidier {
+        width: 100%;
+    }
+    .img_full {
+        width: 100%;
+    }
+
+    .close-img {
+        position: fixed;
+        z-index: 999;
+        right: 0;
+        color: #fff;
+        margin: auto;
+    }
+
+
+    /* blog */
+    .content_blog {
+        overflow: hidden;
+        height: 200px;
+        position: relative;
+    }
+    .show_all-blog{
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 12px;
+        font-size: 1.6rem;
+        color: rgb(94, 92, 92);
+        line-height: 2.5rem;
+        background-color: rgb(246, 244, 244);
+        width: 100%;
+    }
+}
+
