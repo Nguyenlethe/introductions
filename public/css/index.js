@@ -430,7 +430,7 @@ const app = {
             closePixed.style.display = 'none'
             fixed.style.display = 'block'
             fixMargin.style.marginTop = '40px'
-            fixMargin.style.position = 'rela'
+            fixMargin.style.position = 'initial'
         }
 
        
