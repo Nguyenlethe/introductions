@@ -728,7 +728,7 @@
 .My_fullname.info_my-name{
     text-align: center;
     width: 100%;
-    font: 400 50px/0.8 'Great Vibes', Helvetica, sans-serif; 
+    font-size: 4rem;
     text-shadow: 4px 4px 3px rgba(0,0,0,0.1);     
     color: #fff;
     margin: 40px  auto 40px auto;
