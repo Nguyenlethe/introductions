@@ -857,6 +857,8 @@ const app = {
 
             small.onclick = (()=>{
                 content.style.height = '200px'
+                small.style.display = 'none'
+                text.style.display = 'block'
             })
         })
 
