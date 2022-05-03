@@ -286,8 +286,10 @@ const app = {
                 document.querySelector('.conten_show.active').classList.remove('active')
                 content.classList.add('active')
 
-                // listHome.style.display = 'none'
-                // modalHome.style.display = 'none'
+                if(screen.width < 650){
+                    listHome.style.transform = 'translateX(-105%)'
+                    modalHome.style.display = 'none'
+                }
             }
         })
         
