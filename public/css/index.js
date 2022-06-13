@@ -12,17 +12,24 @@ const app = {
 
     // Danh sách bài hát 
     songs: [
+        
         {
-        name: "Rồi Nâng Cái Ly - Nal",
-        singer: "Cover Út Nhị Mino",
-        path: "public/audio/roinangcaily.mp3",
-        image:"public/images/roinangcaily1.jpg"  
+        name: "Đám Cưới Nha",
+        singer: "HỒNG THANH X MIE",
+        path: "public/audio/damcuoinha.mp3",
+        image:"public/images/damcuoinha.jpg"  
         },
         {
         name: "Yêu là Cưới",   
         singer: "Phát Hồ, X2X", 
         path: "public/audio/Yeulacuoi.mp3",
         image:"public/images/yeulacuoi.jpg"  
+        },
+        {
+        name: "Rồi Nâng Cái Ly - Nal",
+        singer: "Cover Út Nhị Mino",
+        path: "public/audio/roinangcaily.mp3",
+        image:"public/images/roinangcaily1.jpg"   
         },
         {
         name: "Tương Tư Nàng Ca Sĩ",
@@ -118,6 +125,9 @@ const app = {
     // Ng lính
     soldier: [
         {
+            src: "public/Myphoto/soldier/myig.jpg"
+        },
+        {
             src: "public/Myphoto/soldier/s8.jpg"
         },
         {
@@ -127,10 +137,16 @@ const app = {
             src: "public/Myphoto/soldier/s2.jpg"
         },
         {
+            src: "public/Myphoto/soldier/myig3.jpg"
+        },
+        {
             src: "public/Myphoto/soldier/s1.jpg"
         },
         {
             src: "public/Myphoto/soldier/s6.jpg"
+        },
+        {
+            src: "public/Myphoto/soldier/mu.jpg"
         },
         {
             src: "public/Myphoto/soldier/s12.jpg"
