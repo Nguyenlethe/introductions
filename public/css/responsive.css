@@ -283,6 +283,7 @@
         display: block;
         transition: transform .3s linear;
         z-index: 8899;
+        background-color: rgb(253 237 199);
     }
     .list_home {
         display: block;
@@ -349,7 +350,7 @@
         transition: transform .3s linear;
         display: block;
         font-size: 2.8rem;
-        margin-left: 12px;
+        /* margin-left: 12px; */
         color: #337ab7;
         z-index: 999;
         background-color: rgb(241 190 190);
@@ -364,8 +365,17 @@
     }
     .home_content {
         padding: 15px 0;
-        width: 100%;
+        width: 90%;
         border-radius: 0px;
+        margin: 36px auto;
+        background-color: rgba(241, 190, 190, 0.198);
+    }
+    .text-blog {
+        font-weight: 550;
+        font-size: 1.6rem;
+        color: #333;
+        text-shadow: none;
+        line-height: 2.4rem;
     }
     .icon_close-navMb{
         display: block;
@@ -440,10 +450,13 @@
         position: absolute;
         bottom: 0;
         left: 12px;
+        padding-left: 12px;
+        text-align: center;
+        margin-left: -12px;
         font-size: 1.6rem;
         color: rgb(94, 92, 92);
         line-height: 2.5rem;
-        background-color: rgb(246, 244, 244);
+        background-color:rgb(253 237 199);
         width: 100%;
     }
     .music_show_tapMobile{
