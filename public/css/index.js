@@ -117,13 +117,16 @@ const app = {
             src: "public/Myphoto/m4.jpg"
         },
         {
-            src: "public/Myphoto/m6.jpg"
+            src: "public/Myphoto/z3570074070092_7e17760c7349e3a59c5a45078f8c0b14.jpg"
         }
     ],
 
 
     // Ng lính
     soldier: [
+        {
+            src: "public/Myphoto/3s.jpg"
+        },
         {
             src: "public/Myphoto/soldier/myig.jpg"
         },
@@ -199,37 +202,37 @@ const app = {
         {
             name: "Javascript",
             color:'violet' ,
-            progress: 70,
+            progress: 90,
         },
         {
             name: "C#",
             color: 'salmon',
-            progress: 70,
+            progress: 80,
         },
         {
             name: "PhP",
             color: 'salmon',
-            progress: 20,
+            progress: 60,
         },
         {
             name: "My Sql",
             color: 'darkcyan',
-            progress: 40,
+            progress: 70,
         },
         {
             name: "React Js",
             color: 'tomato',
-            progress: 20,
+            progress: 50,
         },
         {
             name: "Photoshop cs6",
             color: 'cornflowerblue',
-            progress: 10,
+            progress: 90,
         },
         {
             name: "English",
             color: 'blue',
-            progress: 14,
+            progress: 24,
         }
     ],
 

@@ -3,10 +3,14 @@
 .grid {
     width: 100%;
     padding: 0;
+    /* #ee9ca7, #ffdde1 */
+    background: linear-gradient( #c6ffdd, #fbd786, #f7797d)
 }
 .grid.wide {
     max-width: 1200px;
     margin: 0 auto;
+    background: linear-gradient( #c6ffdd00, #fbd88600, #f7797d05)
+
 }
 .row {
     display: flex;
