@@ -1021,9 +1021,12 @@
     position: absolute;
     bottom: 0;
     left: 12px;
+    margin-left: -12px;
+    padding-left: 12px;
+    text-align: center;
     font-size: 1.6rem;
     color: rgb(94, 92, 92);
     line-height: 2.5rem;
-    background-color: rgb(246, 244, 244);
+    background-color: rgb(253 228 198);;
     width: 100%;
 }

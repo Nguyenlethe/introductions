@@ -366,7 +366,7 @@
     .home_content {
         padding: 15px 0;
         width: 90%;
-        border-radius: 0px;
+        border-radius: 50px;
         margin: 36px auto;
         background-color: rgba(241, 190, 190, 0.198);
     }
@@ -456,7 +456,7 @@
         font-size: 1.6rem;
         color: rgb(94, 92, 92);
         line-height: 2.5rem;
-        background-color:rgb(253 237 199);
+        background-color:rgb(253 228 198);
         width: 100%;
     }
     .music_show_tapMobile{
