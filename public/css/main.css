@@ -351,6 +351,9 @@
 .foot__by{
     width: 100%;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .foot__by span{
     font-size: 1.6rem;
@@ -359,6 +362,7 @@
     font-weight: 600;
 }
 .foot__by a{
+    display: block;
     text-decoration: none;
     font-size: 1.6rem;
     color:rgb(0, 62, 100);

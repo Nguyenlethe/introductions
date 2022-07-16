@@ -259,6 +259,7 @@
 
 /*  Only Mobile    ip 6,7,8 */
 @media (max-width:46.25em) {
+
     :root{
         --height-bgr: 0vh;
     }
@@ -314,6 +315,16 @@
     }
     .song {
         margin-right: 0;
+    }
+    .foot__by a{
+        width: 100%;
+        text-align: center;
+        display: block;
+        text-decoration: none;
+        font-size: 1.6rem;
+        color:rgb(0, 62, 100);
+        text-shadow: 0 0 0 ;
+        font-weight: 600;
     }
   
     .My_introduce.horizontal{
