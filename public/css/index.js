@@ -128,9 +128,6 @@ const app = {
             src: "public/Myphoto/3s.jpg"
         },
         {
-            src: "public/Myphoto/soldier/myig.jpg"
-        },
-        {
             src: "public/Myphoto/soldier/s8.jpg"
         },
         {
@@ -138,9 +135,6 @@ const app = {
         },
         {
             src: "public/Myphoto/soldier/s2.jpg"
-        },
-        {
-            src: "public/Myphoto/soldier/myig3.jpg"
         },
         {
             src: "public/Myphoto/soldier/s1.jpg"
@@ -192,17 +186,17 @@ const app = {
         {
             name: "Html Css",
             color: '#337ab7' ,
-            progress: 80,
+            progress: 100,
         },
         {
             name: "Responsive Design",
             color: 'red',
-            progress: 89,
+            progress: 98,
         },
         {
             name: "Javascript",
             color:'violet' ,
-            progress: 90,
+            progress: 97,
         },
         {
             name: "C#",
@@ -212,7 +206,7 @@ const app = {
         {
             name: "PhP",
             color: 'salmon',
-            progress: 60,
+            progress: 40,
         },
         {
             name: "My Sql",
@@ -222,7 +216,7 @@ const app = {
         {
             name: "React Js",
             color: 'tomato',
-            progress: 50,
+            progress: 80,
         },
         {
             name: "Photoshop cs6",
@@ -683,7 +677,7 @@ const app = {
             cdThumbAnimate.play(); 
              cdThumbAnimateMobile.play();  
             borderCd.style.border = '1px solid rgba(238, 130, 238, 0.644)'
-            noneFooter.style.marginBottom = '-330px'
+            noneFooter.style.marginBottom = '-345px'
         }
 
 
